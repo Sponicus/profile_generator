@@ -11,6 +11,9 @@ rl.question('What\'s your name? Nicknames are also acceptable :)', (answer1) => 
     console.log(`Thank you! You like: ${answer2}`);
     rl.question(`What do you listen to while doing that?`, (answer3) => {
       console.log(`Thank you! You listen to: ${answer3}`);
+      rl.question(`Which meal is your favourite (eg: dinner, brunch, etc.)`, (answer4) => {
+        console.log(`Thank you! You listen to: ${answer4}`);
+      })      
     })
   })
 });
